@@ -1,0 +1,25 @@
+{
+    "name": "huit/huit-schedule-hub",
+    "description": "Smart multi-campus teaching schedule manager for HUIT",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "vlucas/phpdotenv": "^5.8",
+        "fakerphp/faker": "^1.24"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "namlav",
+            "email": "lavannam312@gmail.com"
+        }
+    ],
+    "scripts": {
+        "seed": "php database/seeder.php",
+        "serve": "php -S localhost:8000 -t public"
+    },
+    "config": {
+        "sort-packages": true,
+        "process-timeout": 0
+    }
+}
